@@ -1,0 +1,4054 @@
+meta:
+  format: 2
+  name: DemoStation
+  author: Space-Wizards
+  postmapinit: false
+tilemap:
+  0: space
+  1: floor_asteroid_coarse_sand0
+  2: floor_asteroid_coarse_sand1
+  3: floor_asteroid_coarse_sand2
+  4: floor_asteroid_coarse_sand_dug
+  5: floor_asteroid_sand
+  6: floor_asteroid_tile
+  7: floor_bar
+  8: floor_blue
+  9: floor_blue_circuit
+  10: floor_clown
+  11: floor_dark
+  12: floor_elevator_shaft
+  13: floor_freezer
+  14: floor_glass
+  15: floor_gold
+  16: floor_grass
+  17: floor_green_circuit
+  18: floor_hydro
+  19: floor_kitchen
+  20: floor_laundry
+  21: floor_lino
+  22: floor_mime
+  23: floor_mono
+  24: floor_reinforced
+  25: floor_rglass
+  26: floor_rock_vault
+  27: floor_showroom
+  28: floor_silver
+  29: floor_snow
+  30: floor_steel
+  31: floor_steel_dirty
+  32: floor_techmaint
+  33: floor_white
+  34: floor_wood
+  35: lattice
+  36: plating
+  37: underplating
+grids:
+- settings:
+    chunksize: 16
+    tilesize: 1
+  chunks:
+  - ind: "-1,-1"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAACwAAAAsAAAALAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAsAAAALAAAACwAAAAsAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAALAAAACwAAAAsAAAALAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAA==
+  - ind: "0,-1"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAHgAAAB4AAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAHgAAAB4AAAAeAAAAHgAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAB4AAAAeAAAAHgAAAB4AAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAeAAAAHgAAAB4AAAAeAAAAJAAAACQAAAAkAAAAJAAAAA==
+  - ind: "0,0"
+    tiles: JAAAACQAAAARAAAAJAAAACQAAAALAAAACwAAACQAAAAkAAAAHgAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAACQAAAAkAAAAJAAAACQAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAAkAAAAJAAAACQAAAAkAAAACwAAAAsAAAALAAAACwAAAAsAAAAkAAAAJAAAACQAAAALAAAACwAAAAsAAAALAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAACwAAAAsAAAAkAAAAJAAAABEAAAAkAAAACwAAAAsAAAALAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAACwAAAAsAAAALAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAA==
+  - ind: "-1,0"
+    tiles: AAAAAAAAAAAAAAAAJAAAACQAAAAkAAAACwAAACQAAAAkAAAAJAAAAAsAAAALAAAACwAAACQAAAALAAAACwAAAAAAAAAAAAAAJAAAACQAAAAkAAAACwAAAAsAAAALAAAACwAAACQAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAAAAAAAAAAAACQAAAAkAAAAJAAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAAAAAAAAAAAAAAAAAAJAAAACQAAAALAAAACwAAAAsAAAALAAAAJAAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAAAAAAAAAAAAAAAACQAAAAkAAAACwAAAAsAAAALAAAACwAAACQAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAsAAAALAAAACwAAAAsAAAAkAAAAJAAAAAsAAAALAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAACwAAAAsAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAA==
+  - ind: "1,-1"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAsAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAsAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAA==
+  - ind: "1,0"
+    tiles: JAAAACQAAAAkAAAAJAAAAAsAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAsAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAsAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAACwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAAkAAAACwAAAAsAAAAkAAAAIAAAACAAAAAgAAAAGwAAABsAAAAbAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAAJAAAAAsAAAALAAAAJAAAABsAAAAbAAAAGwAAABsAAAAbAAAAGwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAALAAAACwAAACQAAAAbAAAAGwAAABsAAAAbAAAAGwAAABsAAAAkAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAAkAAAAGwAAABsAAAAgAAAAIAAAACAAAAAbAAAAJAAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAGwAAACQAAAASAAAAEgAAABIAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAEgAAABIAAAASAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAABIAAAASAAAAEgAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAA==
+  - ind: "-1,1"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "0,1"
+    tiles: JAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "1,1"
+    tiles: JAAAABIAAAASAAAAEgAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "2,1"
+    tiles: JAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "2,0"
+    tiles: JAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAYAAAAGAAAABgAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAGAAAABgAAAAYAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAAAAJAAAACQAAAAkAAAAJAAAABgAAAAYAAAAGAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAACQAAAAkAAAAJAAAACQAAAAYAAAAGAAAABgAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsAAAAkAAAAJAAAACQAAAAkAAAAGAAAABgAAAAYAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAAAAJAAAACQAAAAkAAAAJAAAABgAAAAYAAAAGAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - ind: "2,-1"
+    tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+entities:
+- uid: 0
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 7.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 1
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 2
+  type: AirlockExternal
+  components:
+  - pos: -4.5,-4.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 3
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 5.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 4
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 5.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 5
+  type: Grille
+  components:
+  - pos: -6.5,1.5
+    parent: 48
+    type: Transform
+- uid: 6
+  type: WindowReinforcedDirectional
+  components:
+  - pos: -1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 7
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 5.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 8
+  type: WallMetal
+  components:
+  - pos: 0.5,0.5
+    parent: 48
+    type: Transform
+- uid: 9
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 10
+  type: WallMetal
+  components:
+  - pos: 4.5,6.5
+    parent: 48
+    type: Transform
+- uid: 11
+  type: WallMetal
+  components:
+  - pos: 11.5,0.5
+    parent: 48
+    type: Transform
+- uid: 12
+  type: WallMetal
+  components:
+  - pos: 1.5,6.5
+    parent: 48
+    type: Transform
+- uid: 13
+  type: WallMetal
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 12.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 14
+  type: WallMetal
+  components:
+  - pos: -3.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 15
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 16
+  type: WallMetal
+  components:
+  - pos: -3.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 17
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 18
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 7.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 19
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 6.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 20
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 7.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 21
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 22
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -2.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 23
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 3.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 24
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 0.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 25
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 3.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 26
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 27
+  type: Grille
+  components:
+  - pos: 1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 28
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 29
+  type: ReinforcedPlasmaWindow
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 2.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 30
+  type: Grille
+  components:
+  - pos: 3.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 31
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 3.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 32
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 33
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 3.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 34
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 35
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 36
+  type: WallMetal
+  components:
+  - pos: -6.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 37
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 38
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -2.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 39
+  type: WindowReinforcedDirectional
+  components:
+  - pos: -2.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 40
+  type: SalvageMagnet
+  components:
+  - pos: 2.5,0.5
+    parent: 48
+    type: Transform
+- uid: 41
+  type: WallMetal
+  components:
+  - pos: 9.5,-4.5
+    parent: 48
+    type: Transform
+- uid: 42
+  type: WallMetal
+  components:
+  - pos: 4.5,0.5
+    parent: 48
+    type: Transform
+- uid: 43
+  type: WallMetal
+  components:
+  - pos: 0.5,5.5
+    parent: 48
+    type: Transform
+- uid: 44
+  type: WallMetal
+  components:
+  - pos: 0.5,4.5
+    parent: 48
+    type: Transform
+- uid: 45
+  type: WallMetal
+  components:
+  - pos: 8.5,-4.5
+    parent: 48
+    type: Transform
+- uid: 46
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 47
+  type: AirlockExternal
+  components:
+  - pos: -5.5,-4.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 48
+  components:
+  - rot: -0.00023837632033973932 rad
+    pos: -0.92190015,2.3129401
+    parent: null
+    type: Transform
+  - index: 0
+    type: MapGrid
+  - linearDamping: 0.1
+    fixedRotation: False
+    bodyType: Dynamic
+    type: Physics
+  - fixtures:
+    - shape: !type:PolygonShape
+        vertices:
+        - -2.01,-3.99
+        - -2.01,-1.01
+        - -10.99,-1.01
+        - -10.99,-3.99
+      id: grid_chunk--10.99--3.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 107.041595
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-0.99
+        - -0.01,-0.01
+        - -10.99,-0.01
+        - -10.99,-0.99
+      id: grid_chunk--10.99--0.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 43.0416
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 15.99,-3.99
+        - 15.99,-1.01
+        - 7.01,-1.01
+        - 7.01,-3.99
+      id: grid_chunk-7.01--3.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 107.041595
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 15.99,-4.99
+        - 15.99,-4.01
+        - 8.01,-4.01
+        - 8.01,-4.99
+      id: grid_chunk-8.01--4.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 31.281584
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 15.99,-12.99
+        - 15.99,-5.01
+        - 11.01,-5.01
+        - 11.01,-12.99
+      id: grid_chunk-11.01--12.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 158.96158
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 15.99,-13.99
+        - 15.99,-13.01
+        - 12.01,-13.01
+        - 12.01,-13.99
+      id: grid_chunk-12.01--13.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 15.601591
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 15.99,0.01
+        - 15.99,11.99
+        - 0.01,11.99
+        - 0.01,0.01
+      id: grid_chunk-0.01-0.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 765.76154
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 26.99,0.01
+        - 26.99,5.99
+        - 16.01,5.99
+        - 16.01,0.01
+      id: grid_chunk-16.01-0.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 262.6416
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 26.99,-13.99
+        - 26.99,-0.01
+        - 16.01,-0.01
+        - 16.01,-13.99
+      id: grid_chunk-16.01--13.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 614.0015
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 19.99,6.01
+        - 19.99,11.99
+        - 16.01,11.99
+        - 16.01,6.01
+      id: grid_chunk-16.01-6.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 95.201584
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 15.99,-0.99
+        - 15.99,-0.01
+        - 0.01,-0.01
+        - 0.01,-0.99
+      id: grid_chunk-0.01--0.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 62.641598
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,-0.99
+        - -0.01,-0.01
+        - -0.99,-0.01
+        - -0.99,-0.99
+      id: grid_chunk--0.99--0.99
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 3.8416002
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - -0.01,0.01
+        - -0.01,11.99
+        - -10.99,11.99
+        - -10.99,0.01
+      id: grid_chunk--10.99-0.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 526.16156
+      restitution: 0.1
+    - shape: !type:PolygonShape
+        vertices:
+        - 19.99,12.01
+        - 19.99,12.99
+        - 19.01,12.99
+        - 19.01,12.01
+      id: grid_chunk-19.01-12.01
+      mask:
+      - MapGrid
+      layer:
+      - MapGrid
+      mass: 3.8415964
+      restitution: 0.1
+    type: Fixtures
+  - gravityShakeSound: !type:SoundPathSpecifier
+      path: /Audio/Effects/alert.ogg
+    type: Gravity
+  - chunkCollection: {}
+    type: DecalGrid
+- uid: 49
+  type: Grille
+  components:
+  - pos: -2.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 50
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -0.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 51
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 52
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 53
+  type: WindowReinforcedDirectional
+  components:
+  - pos: -0.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 54
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -0.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 55
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 6.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 56
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 57
+  type: WallMetal
+  components:
+  - pos: -6.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 58
+  type: WallMetal
+  components:
+  - pos: 2.5,6.5
+    parent: 48
+    type: Transform
+- uid: 59
+  type: WallMetal
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 12.5,0.5
+    parent: 48
+    type: Transform
+- uid: 60
+  type: Grille
+  components:
+  - pos: 2.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 61
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 62
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -1.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 63
+  type: WallMetal
+  components:
+  - pos: 4.5,5.5
+    parent: 48
+    type: Transform
+- uid: 64
+  type: ClosetEmergencyFilledRandom
+  components:
+  - pos: -3.5000062,-1.5
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 65
+  type: WallMetal
+  components:
+  - pos: 4.5,4.5
+    parent: 48
+    type: Transform
+- uid: 66
+  type: WallMetal
+  components:
+  - pos: 7.5,0.5
+    parent: 48
+    type: Transform
+- uid: 67
+  type: WallMetal
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 12.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 68
+  type: WallMetal
+  components:
+  - pos: 11.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 69
+  type: WallMetal
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 12.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 70
+  type: WallMetal
+  components:
+  - pos: 10.5,6.5
+    parent: 48
+    type: Transform
+- uid: 71
+  type: WallMetal
+  components:
+  - pos: 9.5,6.5
+    parent: 48
+    type: Transform
+- uid: 72
+  type: WallMetal
+  components:
+  - pos: 11.5,6.5
+    parent: 48
+    type: Transform
+- uid: 73
+  type: Girder
+  components:
+  - pos: 4.5,7.5
+    parent: 48
+    type: Transform
+- uid: 74
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -7.5,6.5
+    parent: 48
+    type: Transform
+- uid: 75
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,6.5
+    parent: 48
+    type: Transform
+- uid: 76
+  type: WallMetal
+  components:
+  - pos: 12.5,5.5
+    parent: 48
+    type: Transform
+- uid: 77
+  type: WallMetal
+  components:
+  - pos: 16.5,4.5
+    parent: 48
+    type: Transform
+- uid: 78
+  type: WallMetal
+  components:
+  - pos: 12.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 79
+  type: WallMetal
+  components:
+  - pos: 16.5,5.5
+    parent: 48
+    type: Transform
+- uid: 80
+  type: WallMetal
+  components:
+  - pos: 16.5,2.5
+    parent: 48
+    type: Transform
+- uid: 81
+  type: WallMetal
+  components:
+  - pos: 13.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 82
+  type: WallMetal
+  components:
+  - pos: 15.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 83
+  type: WallMetal
+  components:
+  - pos: 16.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 84
+  type: WallMetal
+  components:
+  - pos: 14.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 85
+  type: WallMetal
+  components:
+  - pos: 14.5,6.5
+    parent: 48
+    type: Transform
+- uid: 86
+  type: WallMetal
+  components:
+  - pos: 13.5,6.5
+    parent: 48
+    type: Transform
+- uid: 87
+  type: WallMetal
+  components:
+  - pos: 16.5,6.5
+    parent: 48
+    type: Transform
+- uid: 88
+  type: WallMetal
+  components:
+  - pos: 12.5,4.5
+    parent: 48
+    type: Transform
+- uid: 89
+  type: WallMetal
+  components:
+  - pos: -2.5,0.5
+    parent: 48
+    type: Transform
+- uid: 90
+  type: WallMetal
+  components:
+  - pos: -6.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 91
+  type: WallMetal
+  components:
+  - pos: -6.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 92
+  type: WallMetal
+  components:
+  - pos: -6.5,0.5
+    parent: 48
+    type: Transform
+- uid: 93
+  type: WallMetal
+  components:
+  - pos: 16.5,3.5
+    parent: 48
+    type: Transform
+- uid: 94
+  type: WallMetal
+  components:
+  - pos: 16.5,1.5
+    parent: 48
+    type: Transform
+- uid: 95
+  type: WallMetal
+  components:
+  - pos: 16.5,0.5
+    parent: 48
+    type: Transform
+- uid: 96
+  type: WallMetal
+  components:
+  - pos: 16.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 97
+  type: AirlockMaintCargoLocked
+  components:
+  - pos: 16.5,-1.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 98
+  type: WallMetal
+  components:
+  - pos: 16.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 99
+  type: WallMetal
+  components:
+  - pos: -10.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 100
+  type: WallMetal
+  components:
+  - pos: -11.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 101
+  type: WallMetal
+  components:
+  - pos: -11.5,6.5
+    parent: 48
+    type: Transform
+- uid: 102
+  type: WallMetal
+  components:
+  - pos: -11.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 103
+  type: WallMetal
+  components:
+  - pos: -11.5,5.5
+    parent: 48
+    type: Transform
+- uid: 104
+  type: WallMetal
+  components:
+  - pos: -11.5,0.5
+    parent: 48
+    type: Transform
+- uid: 105
+  type: AirlockMaintCargoLocked
+  components:
+  - pos: -11.5,4.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 106
+  type: WallMetal
+  components:
+  - pos: -11.5,2.5
+    parent: 48
+    type: Transform
+- uid: 107
+  type: Girder
+  components:
+  - pos: -6.5,7.5
+    parent: 48
+    type: Transform
+- uid: 108
+  type: AirlockExternal
+  components:
+  - pos: -5.5,-0.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 109
+  type: WallMetal
+  components:
+  - pos: -7.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 110
+  type: WallMetal
+  components:
+  - pos: -8.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 111
+  type: WallMetal
+  components:
+  - pos: -9.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 112
+  type: WallMetal
+  components:
+  - pos: -6.5,5.5
+    parent: 48
+    type: Transform
+- uid: 113
+  type: WallMetal
+  components:
+  - pos: -6.5,4.5
+    parent: 48
+    type: Transform
+- uid: 114
+  type: WallMetal
+  components:
+  - pos: -6.5,4.5
+    parent: 48
+    type: Transform
+- uid: 115
+  type: Catwalk
+  components:
+  - pos: 8.5,10.5
+    parent: 48
+    type: Transform
+- uid: 116
+  type: WallMetal
+  components:
+  - pos: -11.5,1.5
+    parent: 48
+    type: Transform
+- uid: 117
+  type: WallMetal
+  components:
+  - pos: -11.5,3.5
+    parent: 48
+    type: Transform
+- uid: 118
+  type: WallMetal
+  components:
+  - pos: -5.5,5.5
+    parent: 48
+    type: Transform
+- uid: 119
+  type: TableReinforced
+  components:
+  - pos: -0.5,5.5
+    parent: 48
+    type: Transform
+- uid: 120
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -10.5,6.5
+    parent: 48
+    type: Transform
+- uid: 121
+  type: Girder
+  components:
+  - pos: -10.5,7.5
+    parent: 48
+    type: Transform
+- uid: 122
+  type: Catwalk
+  components:
+  - pos: 1.5,0.5
+    parent: 48
+    type: Transform
+- uid: 123
+  type: AirlockExternal
+  components:
+  - pos: -4.5,-0.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 124
+  type: Catwalk
+  components:
+  - pos: 9.5,10.5
+    parent: 48
+    type: Transform
+- uid: 125
+  type: Girder
+  components:
+  - pos: 0.5,7.5
+    parent: 48
+    type: Transform
+- uid: 126
+  type: Rack
+  components:
+  - pos: 11.5,5.5
+    parent: 48
+    type: Transform
+- uid: 127
+  type: Rack
+  components:
+  - pos: 13.5,5.5
+    parent: 48
+    type: Transform
+- uid: 128
+  type: ShuttersNormalOpen
+  components:
+  - pos: 12.5,3.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 129
+  type: WallSolid
+  components:
+  - pos: 12.5,1.5
+    parent: 48
+    type: Transform
+- uid: 130
+  type: ComputerSupplyRequest
+  components:
+  - pos: -1.5,4.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 131
+  type: Catwalk
+  components:
+  - pos: 6.5,3.5
+    parent: 48
+    type: Transform
+- uid: 132
+  type: cargoTelepad
+  components:
+  - pos: 6.5,4.5
+    parent: 48
+    type: Transform
+- uid: 133
+  type: WardrobeCargo
+  components:
+  - pos: 6.500006,0.5
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 134
+  type: Girder
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -10.5,10.5
+    parent: 48
+    type: Transform
+- uid: 135
+  type: ClothingOuterHardsuitSalvage
+  components:
+  - pos: -7.725899,-0.5
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 136
+  type: ClothingHeadHelmetHardsuitSalvage
+  components:
+  - rot: 0.0004241835558786988 rad
+    pos: -7.263185,-2.4998503
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+  - containers:
+      cellslot_cell_container: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 137
+  type: ClothingOuterHardsuitSalvage
+  components:
+  - pos: -7.7258983,-1.5
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 138
+  type: CrateServiceBureaucracy
+  components:
+  - pos: 15.500025,5.5
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+      PaperLabel: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 139
+  type: Rack
+  components:
+  - pos: 13.5,4.5
+    parent: 48
+    type: Transform
+- uid: 140
+  type: ShuttersNormalOpen
+  components:
+  - pos: 12.5,2.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 141
+  type: WallMetal
+  components:
+  - pos: 11.5,-4.5
+    parent: 48
+    type: Transform
+- uid: 142
+  type: ClothingHeadHelmetHardsuitSalvage
+  components:
+  - rot: 0.0004241826245561242 rad
+    pos: -7.263185,-1.4998498
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+  - containers:
+      cellslot_cell_container: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 143
+  type: ClothingHeadHelmetHardsuitSalvage
+  components:
+  - rot: 0.00042418239172548056 rad
+    pos: -7.263185,-0.4998492
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+  - containers:
+      cellslot_cell_container: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 144
+  type: ClothingOuterHardsuitSalvage
+  components:
+  - pos: -7.7258983,-2.5
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 145
+  type: Rack
+  components:
+  - pos: -7.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 146
+  type: Rack
+  components:
+  - pos: -7.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 147
+  type: Rack
+  components:
+  - pos: -7.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 148
+  type: ShuttersNormal
+  components:
+  - pos: -1.5,12.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 149
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -5.5,11.5
+    parent: 48
+    type: Transform
+- uid: 150
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -3.5,11.5
+    parent: 48
+    type: Transform
+- uid: 151
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -4.5,11.5
+    parent: 48
+    type: Transform
+- uid: 152
+  type: Catwalk
+  components:
+  - pos: -2.5,10.5
+    parent: 48
+    type: Transform
+- uid: 153
+  type: Grille
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 154
+  type: Table
+  components:
+  - pos: 3.5,5.5
+    parent: 48
+    type: Transform
+- uid: 155
+  type: WallMetal
+  components:
+  - pos: -6.5,6.5
+    parent: 48
+    type: Transform
+- uid: 156
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -7.5,11.5
+    parent: 48
+    type: Transform
+- uid: 157
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -10.5,0.5
+    parent: 48
+    type: Transform
+- uid: 158
+  type: Rack
+  components:
+  - pos: 9.5,5.5
+    parent: 48
+    type: Transform
+- uid: 159
+  type: Table
+  components:
+  - pos: 2.5,5.5
+    parent: 48
+    type: Transform
+- uid: 160
+  type: WindowDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -6.5,3.5
+    parent: 48
+    type: Transform
+- uid: 161
+  type: WindowDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -6.5,3.5
+    parent: 48
+    type: Transform
+- uid: 162
+  type: AirlockCargoGlassLocked
+  components:
+  - pos: -6.5,2.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 163
+  type: Catwalk
+  components:
+  - pos: 7.5,5.5
+    parent: 48
+    type: Transform
+- uid: 164
+  type: Table
+  components:
+  - pos: 3.5,4.5
+    parent: 48
+    type: Transform
+- uid: 165
+  type: Catwalk
+  components:
+  - pos: 6.5,5.5
+    parent: 48
+    type: Transform
+- uid: 166
+  type: WindowDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 167
+  type: WallMetal
+  components:
+  - pos: -11.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 168
+  type: WallMetal
+  components:
+  - pos: -6.5,-4.5
+    parent: 48
+    type: Transform
+- uid: 169
+  type: WallMetal
+  components:
+  - pos: -11.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 170
+  type: Autolathe
+  components:
+  - pos: 1.5,5.5
+    parent: 48
+    type: Transform
+  - containers:
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 171
+  type: WeldingFuelTankFull
+  components:
+  - pos: -0.5,0.5
+    parent: 48
+    type: Transform
+- uid: 172
+  type: WindowDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -6.5,3.5
+    parent: 48
+    type: Transform
+- uid: 173
+  type: WallMetal
+  components:
+  - pos: -3.5,-4.5
+    parent: 48
+    type: Transform
+- uid: 174
+  type: Grille
+  components:
+  - pos: -6.5,3.5
+    parent: 48
+    type: Transform
+- uid: 175
+  type: WindowDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -6.5,1.5
+    parent: 48
+    type: Transform
+- uid: 176
+  type: WindowDirectional
+  components:
+  - pos: -6.5,1.5
+    parent: 48
+    type: Transform
+- uid: 177
+  type: WindowDirectional
+  components:
+  - pos: -6.5,3.5
+    parent: 48
+    type: Transform
+- uid: 178
+  type: Catwalk
+  components:
+  - pos: 5.5,5.5
+    parent: 48
+    type: Transform
+- uid: 179
+  type: Catwalk
+  components:
+  - pos: 5.5,4.5
+    parent: 48
+    type: Transform
+- uid: 180
+  type: Rack
+  components:
+  - pos: 10.5,5.5
+    parent: 48
+    type: Transform
+- uid: 181
+  type: Catwalk
+  components:
+  - pos: 5.5,3.5
+    parent: 48
+    type: Transform
+- uid: 182
+  type: Catwalk
+  components:
+  - pos: 7.5,3.5
+    parent: 48
+    type: Transform
+- uid: 183
+  type: Catwalk
+  components:
+  - pos: 7.5,4.5
+    parent: 48
+    type: Transform
+- uid: 184
+  type: Catwalk
+  components:
+  - pos: 3.5,0.5
+    parent: 48
+    type: Transform
+- uid: 185
+  type: CrateSalvageEquipment
+  components:
+  - pos: -8.5,-2.500003
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+      PaperLabel: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 186
+  type: OxygenCanister
+  components:
+  - pos: -10.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 187
+  type: YellowOxygenTankFilled
+  components:
+  - pos: -7.500012,-0.5
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 188
+  type: YellowOxygenTankFilled
+  components:
+  - pos: -7.500012,-1.5
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 189
+  type: YellowOxygenTankFilled
+  components:
+  - pos: -7.500012,-2.5
+    parent: 48
+    type: Transform
+  - canCollide: False
+    type: Physics
+- uid: 190
+  type: ClosetEmergencyFilledRandom
+  components:
+  - pos: -10.5,-2.5
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 191
+  type: Girder
+  components:
+  - pos: 11.5,7.5
+    parent: 48
+    type: Transform
+- uid: 192
+  type: Table
+  components:
+  - pos: -10.5,3.5
+    parent: 48
+    type: Transform
+- uid: 193
+  type: Girder
+  components:
+  - pos: 4.5,10.5
+    parent: 48
+    type: Transform
+- uid: 194
+  type: Catwalk
+  components:
+  - pos: 10.5,10.5
+    parent: 48
+    type: Transform
+- uid: 195
+  type: Table
+  components:
+  - pos: -10.5,2.5
+    parent: 48
+    type: Transform
+- uid: 196
+  type: RailingCorner
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 7.5,10.5
+    parent: 48
+    type: Transform
+- uid: 197
+  type: Table
+  components:
+  - pos: -1.5,0.5
+    parent: 48
+    type: Transform
+- uid: 198
+  type: WindowDirectional
+  components:
+  - pos: -8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 199
+  type: WaterTankFull
+  components:
+  - pos: 5.5,0.5
+    parent: 48
+    type: Transform
+- uid: 200
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -7.5,0.5
+    parent: 48
+    type: Transform
+- uid: 201
+  type: WindowDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 202
+  type: Catwalk
+  components:
+  - pos: 7.5,5.5
+    parent: 48
+    type: Transform
+- uid: 203
+  type: AirlockCargoGlassLocked
+  components:
+  - pos: -9.5,0.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 204
+  type: ComputerSupplyOrdering
+  components:
+  - pos: 8.5,5.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 205
+  type: WindowDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -6.5,1.5
+    parent: 48
+    type: Transform
+- uid: 206
+  type: WindowDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -6.5,1.5
+    parent: 48
+    type: Transform
+- uid: 207
+  type: WindowDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 208
+  type: WallSolid
+  components:
+  - pos: 18.5,6.5
+    parent: 48
+    type: Transform
+- uid: 209
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 3.5,11.5
+    parent: 48
+    type: Transform
+- uid: 210
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 2.5,11.5
+    parent: 48
+    type: Transform
+- uid: 211
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 0.5,11.5
+    parent: 48
+    type: Transform
+- uid: 212
+  type: AirlockScienceLocked
+  components:
+  - pos: -0.5,12.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 213
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 1.5,11.5
+    parent: 48
+    type: Transform
+- uid: 214
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -9.5,6.5
+    parent: 48
+    type: Transform
+- uid: 215
+  type: WallMetal
+  components:
+  - pos: 0.5,6.5
+    parent: 48
+    type: Transform
+- uid: 216
+  type: Table
+  components:
+  - pos: -8.5,5.5
+    parent: 48
+    type: Transform
+- uid: 217
+  type: WallMetal
+  components:
+  - pos: 4.5,6.5
+    parent: 48
+    type: Transform
+- uid: 218
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -7.5,6.5
+    parent: 48
+    type: Transform
+- uid: 219
+  type: WallMetal
+  components:
+  - pos: 3.5,6.5
+    parent: 48
+    type: Transform
+- uid: 220
+  type: WallMetal
+  components:
+  - pos: 5.5,6.5
+    parent: 48
+    type: Transform
+- uid: 221
+  type: WallMetal
+  components:
+  - pos: 6.5,6.5
+    parent: 48
+    type: Transform
+- uid: 222
+  type: WallMetal
+  components:
+  - pos: 7.5,6.5
+    parent: 48
+    type: Transform
+- uid: 223
+  type: WallMetal
+  components:
+  - pos: 8.5,6.5
+    parent: 48
+    type: Transform
+- uid: 224
+  type: Girder
+  components:
+  - pos: 0.5,10.5
+    parent: 48
+    type: Transform
+- uid: 225
+  type: WallMetal
+  components:
+  - pos: 12.5,6.5
+    parent: 48
+    type: Transform
+- uid: 226
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -8.5,11.5
+    parent: 48
+    type: Transform
+- uid: 227
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -10.5,11.5
+    parent: 48
+    type: Transform
+- uid: 228
+  type: RailingCorner
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,10.5
+    parent: 48
+    type: Transform
+- uid: 229
+  type: Table
+  components:
+  - pos: -7.5,5.5
+    parent: 48
+    type: Transform
+- uid: 230
+  type: Table
+  components:
+  - pos: -10.5,1.5
+    parent: 48
+    type: Transform
+- uid: 231
+  type: Table
+  components:
+  - pos: -7.5,4.5
+    parent: 48
+    type: Transform
+- uid: 232
+  type: Girder
+  components:
+  - pos: -6.5,10.5
+    parent: 48
+    type: Transform
+- uid: 233
+  type: Girder
+  components:
+  - pos: 11.5,10.5
+    parent: 48
+    type: Transform
+- uid: 234
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -9.5,11.5
+    parent: 48
+    type: Transform
+- uid: 235
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -6.5,11.5
+    parent: 48
+    type: Transform
+- uid: 236
+  type: Catwalk
+  components:
+  - pos: 5.5,10.5
+    parent: 48
+    type: Transform
+- uid: 237
+  type: ClosetToolFilled
+  components:
+  - pos: -9.5,-2.505
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 238
+  type: WallMetal
+  components:
+  - pos: 15.5,6.5
+    parent: 48
+    type: Transform
+- uid: 239
+  type: Catwalk
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -5.5,7.5
+    parent: 48
+    type: Transform
+- uid: 240
+  type: Catwalk
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -0.5,7.5
+    parent: 48
+    type: Transform
+- uid: 241
+  type: Catwalk
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -3.5,7.5
+    parent: 48
+    type: Transform
+- uid: 242
+  type: Catwalk
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -4.5,7.5
+    parent: 48
+    type: Transform
+- uid: 243
+  type: RailingCorner
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,7.5
+    parent: 48
+    type: Transform
+- uid: 244
+  type: RailingCorner
+  components:
+  - pos: -1.5,7.5
+    parent: 48
+    type: Transform
+- uid: 245
+  type: Grille
+  components:
+  - pos: -2.5,5.5
+    parent: 48
+    type: Transform
+- uid: 246
+  type: Grille
+  components:
+  - pos: -1.5,5.5
+    parent: 48
+    type: Transform
+- uid: 247
+  type: AirlockCargoGlassLocked
+  components:
+  - pos: -3.5,5.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 248
+  type: ShuttersNormal
+  components:
+  - pos: -4.5,5.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 249
+  type: WindowDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: -2.5,5.5
+    parent: 48
+    type: Transform
+- uid: 250
+  type: WindowDirectional
+  components:
+  - pos: -2.5,5.5
+    parent: 48
+    type: Transform
+- uid: 251
+  type: WindowDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -2.5,5.5
+    parent: 48
+    type: Transform
+- uid: 252
+  type: WindowDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -1.5,5.5
+    parent: 48
+    type: Transform
+- uid: 253
+  type: WindowDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: -1.5,5.5
+    parent: 48
+    type: Transform
+- uid: 254
+  type: WindowDirectional
+  components:
+  - pos: -1.5,5.5
+    parent: 48
+    type: Transform
+- uid: 255
+  type: WindoorCargoLocked
+  components:
+  - pos: -0.5,5.5
+    parent: 48
+    type: Transform
+- uid: 256
+  type: Windoor
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -0.5,5.5
+    parent: 48
+    type: Transform
+- uid: 257
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 258
+  type: Grille
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 10.5,0.5
+    parent: 48
+    type: Transform
+- uid: 259
+  type: WindowDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 260
+  type: WindowDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 261
+  type: WindowDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 262
+  type: WindowDirectional
+  components:
+  - pos: 8.5,0.5
+    parent: 48
+    type: Transform
+- uid: 263
+  type: WindowDirectional
+  components:
+  - pos: 10.5,0.5
+    parent: 48
+    type: Transform
+- uid: 264
+  type: WindowDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 10.5,0.5
+    parent: 48
+    type: Transform
+- uid: 265
+  type: WindowDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 10.5,0.5
+    parent: 48
+    type: Transform
+- uid: 266
+  type: WindowDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 10.5,0.5
+    parent: 48
+    type: Transform
+- uid: 267
+  type: Grille
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 268
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 269
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 7.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 270
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 7.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 271
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 7.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 272
+  type: AirlockCargoGlassLocked
+  components:
+  - pos: 9.5,0.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 273
+  type: Table
+  components:
+  - pos: 8.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 274
+  type: Table
+  components:
+  - pos: 9.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 275
+  type: WallMetal
+  components:
+  - pos: 10.5,-4.5
+    parent: 48
+    type: Transform
+- uid: 276
+  type: LockerQuarterMasterFilled
+  components:
+  - pos: 10.5,-3.5
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 277
+  type: ComputerSupplyOrdering
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-3.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 278
+  type: ChairOfficeLight
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 279
+  type: ClosetLegal
+  components:
+  - pos: 11.500025,-0.5
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 280
+  type: ClosetBase
+  components:
+  - pos: 11.5,-1.5
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 281
+  type: PottedPlantRandom
+  components:
+  - pos: 11.5,-2.5
+    parent: 48
+    type: Transform
+  - containers:
+      stash: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 282
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,11.5
+    parent: 48
+    type: Transform
+- uid: 283
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 11.5,11.5
+    parent: 48
+    type: Transform
+- uid: 284
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 12.5,11.5
+    parent: 48
+    type: Transform
+- uid: 285
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 13.5,11.5
+    parent: 48
+    type: Transform
+- uid: 286
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 14.5,11.5
+    parent: 48
+    type: Transform
+- uid: 287
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 15.5,11.5
+    parent: 48
+    type: Transform
+- uid: 288
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 16.5,11.5
+    parent: 48
+    type: Transform
+- uid: 289
+  type: WallMetal
+  components:
+  - pos: -7.5,13.5
+    parent: 48
+    type: Transform
+- uid: 290
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 11.5,12.5
+    parent: 48
+    type: Transform
+- uid: 291
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 10.5,12.5
+    parent: 48
+    type: Transform
+- uid: 292
+  type: ShuttersNormal
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 9.5,12.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 293
+  type: AirlockScienceGlassLocked
+  components:
+  - pos: 8.5,12.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 294
+  type: Grille
+  components:
+  - pos: 6.5,12.5
+    parent: 48
+    type: Transform
+- uid: 295
+  type: Grille
+  components:
+  - pos: 7.5,12.5
+    parent: 48
+    type: Transform
+- uid: 296
+  type: TableReinforced
+  components:
+  - pos: 5.5,12.5
+    parent: 48
+    type: Transform
+- uid: 297
+  type: WindoorScienceLocked
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 5.5,12.5
+    parent: 48
+    type: Transform
+- uid: 298
+  type: Windoor
+  components:
+  - pos: 5.5,12.5
+    parent: 48
+    type: Transform
+- uid: 299
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 6.5,12.5
+    parent: 48
+    type: Transform
+- uid: 300
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 7.5,12.5
+    parent: 48
+    type: Transform
+- uid: 301
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 6.5,12.5
+    parent: 48
+    type: Transform
+- uid: 302
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 6.5,12.5
+    parent: 48
+    type: Transform
+- uid: 303
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 7.5,12.5
+    parent: 48
+    type: Transform
+- uid: 304
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 7.5,12.5
+    parent: 48
+    type: Transform
+- uid: 305
+  type: WallMetal
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 4.5,12.5
+    parent: 48
+    type: Transform
+- uid: 306
+  type: WallMetal
+  components:
+  - pos: -3.5,12.5
+    parent: 48
+    type: Transform
+- uid: 307
+  type: Girder
+  components:
+  - pos: -3.5,10.5
+    parent: 48
+    type: Transform
+- uid: 308
+  type: WallMetal
+  components:
+  - pos: -7.5,14.5
+    parent: 48
+    type: Transform
+- uid: 309
+  type: WallMetal
+  components:
+  - pos: 0.5,12.5
+    parent: 48
+    type: Transform
+- uid: 310
+  type: WallMetal
+  components:
+  - pos: -7.5,16.5
+    parent: 48
+    type: Transform
+- uid: 311
+  type: TableReinforced
+  components:
+  - pos: -2.5,12.5
+    parent: 48
+    type: Transform
+- uid: 312
+  type: Catwalk
+  components:
+  - pos: -1.5,10.5
+    parent: 48
+    type: Transform
+- uid: 313
+  type: Catwalk
+  components:
+  - pos: -0.5,10.5
+    parent: 48
+    type: Transform
+- uid: 314
+  type: Windoor
+  components:
+  - pos: -2.5,12.5
+    parent: 48
+    type: Transform
+- uid: 315
+  type: WallMetal
+  components:
+  - pos: -7.5,12.5
+    parent: 48
+    type: Transform
+- uid: 316
+  type: WindoorScienceLocked
+  components:
+  - rot: 3.141592653589793 rad
+    pos: -2.5,12.5
+    parent: 48
+    type: Transform
+- uid: 317
+  type: WallMetal
+  components:
+  - pos: -7.5,17.5
+    parent: 48
+    type: Transform
+- uid: 318
+  type: WallMetal
+  components:
+  - pos: -6.5,17.5
+    parent: 48
+    type: Transform
+- uid: 319
+  type: WallMetal
+  components:
+  - pos: -7.5,15.5
+    parent: 48
+    type: Transform
+- uid: 320
+  type: WallMetal
+  components:
+  - pos: -3.5,17.5
+    parent: 48
+    type: Transform
+- uid: 321
+  type: WallMetal
+  components:
+  - pos: -5.5,17.5
+    parent: 48
+    type: Transform
+- uid: 322
+  type: WallMetal
+  components:
+  - pos: 10.5,16.5
+    parent: 48
+    type: Transform
+- uid: 323
+  type: Table
+  components:
+  - pos: -2.5,15.5
+    parent: 48
+    type: Transform
+- uid: 324
+  type: Table
+  components:
+  - pos: -2.5,16.5
+    parent: 48
+    type: Transform
+- uid: 325
+  type: Table
+  components:
+  - pos: -6.5,16.5
+    parent: 48
+    type: Transform
+- uid: 326
+  type: Table
+  components:
+  - pos: -5.5,14.5
+    parent: 48
+    type: Transform
+- uid: 327
+  type: Table
+  components:
+  - pos: -6.5,14.5
+    parent: 48
+    type: Transform
+- uid: 328
+  type: WallMetal
+  components:
+  - pos: 9.5,16.5
+    parent: 48
+    type: Transform
+- uid: 329
+  type: WallMetal
+  components:
+  - pos: -4.5,17.5
+    parent: 48
+    type: Transform
+- uid: 330
+  type: WallMetal
+  components:
+  - pos: -1.5,17.5
+    parent: 48
+    type: Transform
+- uid: 331
+  type: WallMetal
+  components:
+  - pos: 0.5,17.5
+    parent: 48
+    type: Transform
+- uid: 332
+  type: WallMetal
+  components:
+  - pos: -0.5,17.5
+    parent: 48
+    type: Transform
+- uid: 333
+  type: WallMetal
+  components:
+  - pos: -2.5,17.5
+    parent: 48
+    type: Transform
+- uid: 334
+  type: WallMetal
+  components:
+  - pos: 0.5,16.5
+    parent: 48
+    type: Transform
+- uid: 335
+  type: WallMetal
+  components:
+  - pos: 10.5,13.5
+    parent: 48
+    type: Transform
+- uid: 336
+  type: WallMetal
+  components:
+  - pos: 3.5,16.5
+    parent: 48
+    type: Transform
+- uid: 337
+  type: WallMetal
+  components:
+  - pos: 4.5,16.5
+    parent: 48
+    type: Transform
+- uid: 338
+  type: WallMetal
+  components:
+  - pos: 2.5,16.5
+    parent: 48
+    type: Transform
+- uid: 339
+  type: WallMetal
+  components:
+  - pos: 1.5,16.5
+    parent: 48
+    type: Transform
+- uid: 340
+  type: WallMetal
+  components:
+  - pos: 0.5,13.5
+    parent: 48
+    type: Transform
+- uid: 341
+  type: WallMetal
+  components:
+  - pos: 4.5,13.5
+    parent: 48
+    type: Transform
+- uid: 342
+  type: WallMetal
+  components:
+  - pos: 8.5,16.5
+    parent: 48
+    type: Transform
+- uid: 343
+  type: WallMetal
+  components:
+  - pos: 5.5,16.5
+    parent: 48
+    type: Transform
+- uid: 344
+  type: WallMetal
+  components:
+  - pos: 16.5,12.5
+    parent: 48
+    type: Transform
+- uid: 345
+  type: WallMetal
+  components:
+  - pos: 16.5,13.5
+    parent: 48
+    type: Transform
+- uid: 346
+  type: WallMetal
+  components:
+  - pos: 16.5,14.5
+    parent: 48
+    type: Transform
+- uid: 347
+  type: WallMetal
+  components:
+  - pos: 16.5,15.5
+    parent: 48
+    type: Transform
+- uid: 348
+  type: WallMetal
+  components:
+  - pos: 16.5,16.5
+    parent: 48
+    type: Transform
+- uid: 349
+  type: WallMetal
+  components:
+  - pos: 14.5,16.5
+    parent: 48
+    type: Transform
+- uid: 350
+  type: WallMetal
+  components:
+  - pos: 15.5,16.5
+    parent: 48
+    type: Transform
+- uid: 351
+  type: WallMetal
+  components:
+  - pos: 13.5,16.5
+    parent: 48
+    type: Transform
+- uid: 352
+  type: WallMetal
+  components:
+  - pos: 12.5,16.5
+    parent: 48
+    type: Transform
+- uid: 353
+  type: WallMetal
+  components:
+  - pos: 11.5,16.5
+    parent: 48
+    type: Transform
+- uid: 354
+  type: WallSolid
+  components:
+  - pos: 19.5,6.5
+    parent: 48
+    type: Transform
+- uid: 355
+  type: WallSolid
+  components:
+  - pos: 19.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 356
+  type: WallSolid
+  components:
+  - pos: 19.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 357
+  type: WallSolid
+  components:
+  - pos: 19.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 358
+  type: WallSolid
+  components:
+  - pos: 19.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 359
+  type: WallSolid
+  components:
+  - pos: 19.5,0.5
+    parent: 48
+    type: Transform
+- uid: 360
+  type: WallSolid
+  components:
+  - pos: 19.5,1.5
+    parent: 48
+    type: Transform
+- uid: 361
+  type: WallSolid
+  components:
+  - pos: 19.5,2.5
+    parent: 48
+    type: Transform
+- uid: 362
+  type: WallSolid
+  components:
+  - pos: 19.5,3.5
+    parent: 48
+    type: Transform
+- uid: 363
+  type: WallSolid
+  components:
+  - pos: 19.5,4.5
+    parent: 48
+    type: Transform
+- uid: 364
+  type: WallSolid
+  components:
+  - pos: 19.5,5.5
+    parent: 48
+    type: Transform
+- uid: 365
+  type: WallSolid
+  components:
+  - pos: 23.5,6.5
+    parent: 48
+    type: Transform
+- uid: 366
+  type: WallSolid
+  components:
+  - pos: 23.5,6.5
+    parent: 48
+    type: Transform
+- uid: 367
+  type: WallSolid
+  components:
+  - pos: 23.5,5.5
+    parent: 48
+    type: Transform
+- uid: 368
+  type: WallSolid
+  components:
+  - pos: 23.5,4.5
+    parent: 48
+    type: Transform
+- uid: 369
+  type: WallSolid
+  components:
+  - pos: 23.5,3.5
+    parent: 48
+    type: Transform
+- uid: 370
+  type: WallSolid
+  components:
+  - pos: 23.5,2.5
+    parent: 48
+    type: Transform
+- uid: 371
+  type: WallSolid
+  components:
+  - pos: 23.5,1.5
+    parent: 48
+    type: Transform
+- uid: 372
+  type: WallSolid
+  components:
+  - pos: 23.5,0.5
+    parent: 48
+    type: Transform
+- uid: 373
+  type: WallSolid
+  components:
+  - pos: 23.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 374
+  type: WallSolid
+  components:
+  - pos: 23.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 375
+  type: WallSolid
+  components:
+  - pos: 23.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 376
+  type: WallSolid
+  components:
+  - pos: 23.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 377
+  type: Girder
+  components:
+  - pos: 22.5,5.5
+    parent: 48
+    type: Transform
+- uid: 378
+  type: Girder
+  components:
+  - pos: 22.5,1.5
+    parent: 48
+    type: Transform
+- uid: 379
+  type: Girder
+  components:
+  - pos: 22.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 380
+  type: Catwalk
+  components:
+  - pos: 21.5,4.5
+    parent: 48
+    type: Transform
+- uid: 381
+  type: Catwalk
+  components:
+  - pos: 21.5,5.5
+    parent: 48
+    type: Transform
+- uid: 382
+  type: Catwalk
+  components:
+  - pos: 21.5,6.5
+    parent: 48
+    type: Transform
+- uid: 383
+  type: Catwalk
+  components:
+  - pos: 21.5,7.5
+    parent: 48
+    type: Transform
+- uid: 384
+  type: Catwalk
+  components:
+  - pos: 21.5,3.5
+    parent: 48
+    type: Transform
+- uid: 385
+  type: Catwalk
+  components:
+  - pos: 21.5,2.5
+    parent: 48
+    type: Transform
+- uid: 386
+  type: Catwalk
+  components:
+  - pos: 21.5,1.5
+    parent: 48
+    type: Transform
+- uid: 387
+  type: Catwalk
+  components:
+  - pos: 21.5,0.5
+    parent: 48
+    type: Transform
+- uid: 388
+  type: Catwalk
+  components:
+  - pos: 21.5,-0.5
+    parent: 48
+    type: Transform
+- uid: 389
+  type: Catwalk
+  components:
+  - pos: 21.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 390
+  type: Catwalk
+  components:
+  - pos: 21.5,-2.5
+    parent: 48
+    type: Transform
+- uid: 391
+  type: Catwalk
+  components:
+  - pos: 21.5,-3.5
+    parent: 48
+    type: Transform
+- uid: 392
+  type: Catwalk
+  components:
+  - pos: 21.5,-1.5
+    parent: 48
+    type: Transform
+- uid: 393
+  type: WallMetal
+  components:
+  - pos: 24.5,6.5
+    parent: 48
+    type: Transform
+- uid: 394
+  type: WallReinforced
+  components:
+  - pos: 25.5,7.5
+    parent: 48
+    type: Transform
+- uid: 395
+  type: WallReinforced
+  components:
+  - pos: 25.5,11.5
+    parent: 48
+    type: Transform
+- uid: 396
+  type: WallReinforced
+  components:
+  - pos: 25.5,12.5
+    parent: 48
+    type: Transform
+- uid: 397
+  type: WallReinforced
+  components:
+  - pos: 33.5,7.5
+    parent: 48
+    type: Transform
+- uid: 398
+  type: WallMetal
+  components:
+  - pos: 25.5,13.5
+    parent: 48
+    type: Transform
+- uid: 399
+  type: WallMetal
+  components:
+  - pos: 24.5,13.5
+    parent: 48
+    type: Transform
+- uid: 400
+  type: WallMetal
+  components:
+  - pos: 20.5,13.5
+    parent: 48
+    type: Transform
+- uid: 401
+  type: Grille
+  components:
+  - pos: 21.5,17.5
+    parent: 48
+    type: Transform
+- uid: 402
+  type: WallMetal
+  components:
+  - pos: 20.5,18.5
+    parent: 48
+    type: Transform
+- uid: 403
+  type: Grille
+  components:
+  - pos: 20.5,14.5
+    parent: 48
+    type: Transform
+- uid: 404
+  type: WallMetal
+  components:
+  - pos: 22.5,22.5
+    parent: 48
+    type: Transform
+- uid: 405
+  type: WallMetal
+  components:
+  - pos: 23.5,13.5
+    parent: 48
+    type: Transform
+- uid: 406
+  type: WallMetal
+  components:
+  - pos: 16.5,17.5
+    parent: 48
+    type: Transform
+- uid: 407
+  type: Catwalk
+  components:
+  - pos: 17.5,10.5
+    parent: 48
+    type: Transform
+- uid: 408
+  type: Catwalk
+  components:
+  - pos: 18.5,10.5
+    parent: 48
+    type: Transform
+- uid: 409
+  type: Girder
+  components:
+  - pos: 19.5,10.5
+    parent: 48
+    type: Transform
+- uid: 410
+  type: Catwalk
+  components:
+  - pos: 21.5,10.5
+    parent: 48
+    type: Transform
+- uid: 411
+  type: Catwalk
+  components:
+  - pos: 20.5,10.5
+    parent: 48
+    type: Transform
+- uid: 412
+  type: Catwalk
+  components:
+  - pos: 22.5,9.5
+    parent: 48
+    type: Transform
+- uid: 413
+  type: Catwalk
+  components:
+  - pos: 22.5,8.5
+    parent: 48
+    type: Transform
+- uid: 414
+  type: Catwalk
+  components:
+  - pos: 22.5,7.5
+    parent: 48
+    type: Transform
+- uid: 415
+  type: VendingMachineSmartFridge
+  components:
+  - pos: 25.5,10.5
+    parent: 48
+    type: Transform
+  - enabled: False
+    type: AmbientSound
+- uid: 416
+  type: Girder
+  components:
+  - pos: 19.5,7.5
+    parent: 48
+    type: Transform
+- uid: 417
+  type: Girder
+  components:
+  - pos: 16.5,10.5
+    parent: 48
+    type: Transform
+- uid: 418
+  type: Girder
+  components:
+  - pos: 16.5,7.5
+    parent: 48
+    type: Transform
+- uid: 419
+  type: Catwalk
+  components:
+  - pos: 20.5,7.5
+    parent: 48
+    type: Transform
+- uid: 420
+  type: Girder
+  components:
+  - pos: 22.5,10.5
+    parent: 48
+    type: Transform
+- uid: 421
+  type: TableReinforced
+  components:
+  - pos: 25.5,9.5
+    parent: 48
+    type: Transform
+- uid: 422
+  type: WallReinforced
+  components:
+  - pos: 28.5,12.5
+    parent: 48
+    type: Transform
+- uid: 423
+  type: Grille
+  components:
+  - pos: 25.5,8.5
+    parent: 48
+    type: Transform
+- uid: 424
+  type: chem_master
+  components:
+  - pos: 26.5,8.5
+    parent: 48
+    type: Transform
+  - containers:
+      ChemMaster-beaker: !type:ContainerSlot {}
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+  - solutions:
+      buffer:
+        reagents: []
+    type: SolutionContainerManager
+- uid: 425
+  type: chem_dispenser
+  components:
+  - pos: 27.5,8.5
+    parent: 48
+    type: Transform
+  - containers:
+      ReagentDispenser-beaker: !type:ContainerSlot {}
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 426
+  type: WallReinforced
+  components:
+  - pos: 32.5,7.5
+    parent: 48
+    type: Transform
+- uid: 427
+  type: AirlockMaintChemLocked
+  components:
+  - pos: 31.5,7.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 428
+  type: WallReinforced
+  components:
+  - pos: 30.5,7.5
+    parent: 48
+    type: Transform
+- uid: 429
+  type: AirlockChemistryLocked
+  components:
+  - pos: 26.5,12.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 430
+  type: WallReinforced
+  components:
+  - pos: 33.5,7.5
+    parent: 48
+    type: Transform
+- uid: 431
+  type: WallReinforced
+  components:
+  - pos: 30.5,12.5
+    parent: 48
+    type: Transform
+- uid: 432
+  type: WallReinforced
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 31.5,13.5
+    parent: 48
+    type: Transform
+- uid: 433
+  type: WallReinforced
+  components:
+  - pos: 26.5,7.5
+    parent: 48
+    type: Transform
+- uid: 434
+  type: WallReinforced
+  components:
+  - pos: 33.5,12.5
+    parent: 48
+    type: Transform
+- uid: 435
+  type: WallReinforced
+  components:
+  - pos: 33.5,11.5
+    parent: 48
+    type: Transform
+- uid: 436
+  type: WallReinforced
+  components:
+  - pos: 28.5,7.5
+    parent: 48
+    type: Transform
+- uid: 437
+  type: WallReinforced
+  components:
+  - pos: 29.5,12.5
+    parent: 48
+    type: Transform
+- uid: 438
+  type: WallReinforced
+  components:
+  - pos: 27.5,7.5
+    parent: 48
+    type: Transform
+- uid: 439
+  type: WallReinforced
+  components:
+  - pos: 29.5,7.5
+    parent: 48
+    type: Transform
+- uid: 440
+  type: Table
+  components:
+  - pos: 28.5,8.5
+    parent: 48
+    type: Transform
+- uid: 441
+  type: WallReinforced
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 30.5,13.5
+    parent: 48
+    type: Transform
+- uid: 442
+  type: WallReinforced
+  components:
+  - pos: 33.5,8.5
+    parent: 48
+    type: Transform
+- uid: 443
+  type: WallReinforced
+  components:
+  - pos: 33.5,9.5
+    parent: 48
+    type: Transform
+- uid: 444
+  type: WallReinforced
+  components:
+  - pos: 33.5,10.5
+    parent: 48
+    type: Transform
+- uid: 445
+  type: TableReinforced
+  components:
+  - pos: 27.5,12.5
+    parent: 48
+    type: Transform
+- uid: 446
+  type: Table
+  components:
+  - pos: 30.5,11.5
+    parent: 48
+    type: Transform
+- uid: 447
+  type: chem_master
+  components:
+  - pos: 28.5,11.5
+    parent: 48
+    type: Transform
+  - containers:
+      ChemMaster-beaker: !type:ContainerSlot {}
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+  - solutions:
+      buffer:
+        reagents: []
+    type: SolutionContainerManager
+- uid: 448
+  type: chem_dispenser
+  components:
+  - pos: 29.5,11.5
+    parent: 48
+    type: Transform
+  - containers:
+      ReagentDispenser-beaker: !type:ContainerSlot {}
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 449
+  type: WardrobeChemistry
+  components:
+  - pos: 32.51091,12.505004
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 450
+  type: Table
+  components:
+  - pos: 30.5,8.5
+    parent: 48
+    type: Transform
+- uid: 451
+  type: LockerChemistryFilled
+  components:
+  - pos: 31.549286,12.505003
+    parent: 48
+    type: Transform
+  - sleepTime: 0.19999923
+    type: Physics
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 452
+  type: CrateChemistrySupplies
+  components:
+  - pos: 29.500025,8.500001
+    parent: 48
+    type: Transform
+  - isPlaceable: False
+    type: PlaceableSurface
+  - containers:
+      EntityStorageComponent: !type:Container
+        ents: []
+      PaperLabel: !type:ContainerSlot {}
+    type: ContainerContainer
+- uid: 453
+  type: Stool
+  components:
+  - pos: 27.5,9.500001
+    parent: 48
+    type: Transform
+- uid: 454
+  type: Stool
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 29.500025,10.500001
+    parent: 48
+    type: Transform
+- uid: 455
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 25.5,8.5
+    parent: 48
+    type: Transform
+- uid: 456
+  type: WindowReinforcedDirectional
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 25.5,8.5
+    parent: 48
+    type: Transform
+- uid: 457
+  type: WindowReinforcedDirectional
+  components:
+  - pos: 25.5,8.5
+    parent: 48
+    type: Transform
+- uid: 458
+  type: WindowReinforcedDirectional
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 25.5,8.5
+    parent: 48
+    type: Transform
+- uid: 459
+  type: WindoorMedicalLocked
+  components:
+  - rot: 3.141592653589793 rad
+    pos: 27.5,12.5
+    parent: 48
+    type: Transform
+- uid: 460
+  type: WindoorMedicalLocked
+  components:
+  - pos: 27.5,12.5
+    parent: 48
+    type: Transform
+- uid: 461
+  type: Windoor
+  components:
+  - rot: -1.5707963267948966 rad
+    pos: 25.5,9.5
+    parent: 48
+    type: Transform
+- uid: 462
+  type: WindoorMedicalLocked
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 25.5,9.5
+    parent: 48
+    type: Transform
+- uid: 463
+  type: WallReinforced
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 32.5,13.5
+    parent: 48
+    type: Transform
+- uid: 464
+  type: WallReinforced
+  components:
+  - rot: 1.5707963267948966 rad
+    pos: 33.5,13.5
+    parent: 48
+    type: Transform
+- uid: 465
+  type: Rack
+  components:
+  - pos: 32.5,8.5
+    parent: 48
+    type: Transform
+- uid: 466
+  type: Rack
+  components:
+  - pos: 32.5,9.5
+    parent: 48
+    type: Transform
+- uid: 467
+  type: WallMetal
+  components:
+  - pos: 25.5,6.5
+    parent: 48
+    type: Transform
+- uid: 468
+  type: WallMetal
+  components:
+  - pos: 25.5,4.5
+    parent: 48
+    type: Transform
+- uid: 469
+  type: WallMetal
+  components:
+  - pos: 26.5,4.5
+    parent: 48
+    type: Transform
+- uid: 470
+  type: WallMetal
+  components:
+  - pos: 27.5,4.5
+    parent: 48
+    type: Transform
+- uid: 471
+  type: WallMetal
+  components:
+  - pos: 28.5,4.5
+    parent: 48
+    type: Transform
+- uid: 472
+  type: WallMetal
+  components:
+  - pos: 29.5,4.5
+    parent: 48
+    type: Transform
+- uid: 473
+  type: WallMetal
+  components:
+  - pos: 30.5,4.5
+    parent: 48
+    type: Transform
+- uid: 474
+  type: WallMetal
+  components:
+  - pos: 31.5,4.5
+    parent: 48
+    type: Transform
+- uid: 475
+  type: WallMetal
+  components:
+  - pos: 32.5,4.5
+    parent: 48
+    type: Transform
+- uid: 476
+  type: WallMetal
+  components:
+  - pos: 33.5,4.5
+    parent: 48
+    type: Transform
+- uid: 477
+  type: WallMetal
+  components:
+  - pos: 25.5,3.5
+    parent: 48
+    type: Transform
+- uid: 478
+  type: WallMetal
+  components:
+  - pos: 25.5,2.5
+    parent: 48
+    type: Transform
+- uid: 479
+  type: WallReinforced
+  components:
+  - pos: 36.5,13.5
+    parent: 48
+    type: Transform
+- uid: 480
+  type: AirlockMaint
+  components:
+  - pos: 35.5,6.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 481
+  type: WallMetal
+  components:
+  - pos: 35.5,3.5
+    parent: 48
+    type: Transform
+- uid: 482
+  type: WallMetal
+  components:
+  - pos: 33.5,3.5
+    parent: 48
+    type: Transform
+- uid: 483
+  type: WallReinforced
+  components:
+  - pos: 37.5,13.5
+    parent: 48
+    type: Transform
+- uid: 484
+  type: Grille
+  components:
+  - pos: 36.5,12.5
+    parent: 48
+    type: Transform
+- uid: 485
+  type: WallReinforced
+  components:
+  - pos: 39.5,13.5
+    parent: 48
+    type: Transform
+- uid: 486
+  type: WallReinforced
+  components:
+  - pos: 38.5,13.5
+    parent: 48
+    type: Transform
+- uid: 487
+  type: WallReinforced
+  components:
+  - pos: 40.5,13.5
+    parent: 48
+    type: Transform
+- uid: 488
+  type: WallReinforced
+  components:
+  - pos: 41.5,13.5
+    parent: 48
+    type: Transform
+- uid: 489
+  type: WallReinforced
+  components:
+  - pos: 35.5,12.5
+    parent: 48
+    type: Transform
+- uid: 490
+  type: WallReinforced
+  components:
+  - pos: 35.5,13.5
+    parent: 48
+    type: Transform
+- uid: 491
+  type: WallReinforced
+  components:
+  - pos: 35.5,11.5
+    parent: 48
+    type: Transform
+- uid: 492
+  type: WallReinforced
+  components:
+  - pos: 41.5,12.5
+    parent: 48
+    type: Transform
+- uid: 493
+  type: WallReinforced
+  components:
+  - pos: 35.5,10.5
+    parent: 48
+    type: Transform
+- uid: 494
+  type: WallReinforced
+  components:
+  - pos: 35.5,9.5
+    parent: 48
+    type: Transform
+- uid: 495
+  type: WallReinforced
+  components:
+  - pos: 37.5,4.5
+    parent: 48
+    type: Transform
+- uid: 496
+  type: WallReinforced
+  components:
+  - pos: 41.5,5.5
+    parent: 48
+    type: Transform
+- uid: 497
+  type: WallReinforced
+  components:
+  - pos: 39.5,4.5
+    parent: 48
+    type: Transform
+- uid: 498
+  type: WallReinforced
+  components:
+  - pos: 38.5,4.5
+    parent: 48
+    type: Transform
+- uid: 499
+  type: WallReinforced
+  components:
+  - pos: 40.5,4.5
+    parent: 48
+    type: Transform
+- uid: 500
+  type: WallReinforced
+  components:
+  - pos: 41.5,6.5
+    parent: 48
+    type: Transform
+- uid: 501
+  type: WallReinforced
+  components:
+  - pos: 36.5,4.5
+    parent: 48
+    type: Transform
+- uid: 502
+  type: WallReinforced
+  components:
+  - pos: 41.5,4.5
+    parent: 48
+    type: Transform
+- uid: 503
+  type: WallReinforced
+  components:
+  - pos: 41.5,8.5
+    parent: 48
+    type: Transform
+- uid: 504
+  type: WallReinforced
+  components:
+  - pos: 41.5,7.5
+    parent: 48
+    type: Transform
+- uid: 505
+  type: WallReinforced
+  components:
+  - pos: 35.5,5.5
+    parent: 48
+    type: Transform
+- uid: 506
+  type: WallReinforced
+  components:
+  - pos: 41.5,9.5
+    parent: 48
+    type: Transform
+- uid: 507
+  type: WallReinforced
+  components:
+  - pos: 35.5,4.5
+    parent: 48
+    type: Transform
+- uid: 508
+  type: WallReinforced
+  components:
+  - pos: 41.5,10.5
+    parent: 48
+    type: Transform
+- uid: 509
+  type: WallReinforced
+  components:
+  - pos: 35.5,8.5
+    parent: 48
+    type: Transform
+- uid: 510
+  type: WallReinforced
+  components:
+  - pos: 41.5,11.5
+    parent: 48
+    type: Transform
+- uid: 511
+  type: WallReinforced
+  components:
+  - pos: 35.5,7.5
+    parent: 48
+    type: Transform
+- uid: 512
+  type: Grille
+  components:
+  - pos: 36.5,11.5
+    parent: 48
+    type: Transform
+- uid: 513
+  type: Grille
+  components:
+  - pos: 37.5,12.5
+    parent: 48
+    type: Transform
+- uid: 514
+  type: GrilleBroken
+  components:
+  - pos: 36.5,7.5
+    parent: 48
+    type: Transform
+- uid: 515
+  type: Grille
+  components:
+  - pos: 36.5,8.5
+    parent: 48
+    type: Transform
+- uid: 516
+  type: GrilleBroken
+  components:
+  - pos: 36.5,9.5
+    parent: 48
+    type: Transform
+- uid: 517
+  type: Grille
+  components:
+  - pos: 40.5,6.5
+    parent: 48
+    type: Transform
+- uid: 518
+  type: Grille
+  components:
+  - pos: 40.5,7.5
+    parent: 48
+    type: Transform
+- uid: 519
+  type: Grille
+  components:
+  - pos: 40.5,8.5
+    parent: 48
+    type: Transform
+- uid: 520
+  type: GrilleBroken
+  components:
+  - pos: 40.5,9.5
+    parent: 48
+    type: Transform
+- uid: 521
+  type: Grille
+  components:
+  - pos: 36.5,5.5
+    parent: 48
+    type: Transform
+- uid: 522
+  type: Grille
+  components:
+  - pos: 37.5,5.5
+    parent: 48
+    type: Transform
+- uid: 523
+  type: GrilleBroken
+  components:
+  - pos: 38.5,5.5
+    parent: 48
+    type: Transform
+- uid: 524
+  type: GrilleBroken
+  components:
+  - pos: 39.5,5.5
+    parent: 48
+    type: Transform
+- uid: 525
+  type: Grille
+  components:
+  - pos: 40.5,5.5
+    parent: 48
+    type: Transform
+- uid: 526
+  type: GrilleBroken
+  components:
+  - pos: 40.5,10.5
+    parent: 48
+    type: Transform
+- uid: 527
+  type: GrilleBroken
+  components:
+  - pos: 40.5,11.5
+    parent: 48
+    type: Transform
+- uid: 528
+  type: GrilleBroken
+  components:
+  - pos: 39.5,12.5
+    parent: 48
+    type: Transform
+- uid: 529
+  type: Grille
+  components:
+  - pos: 40.5,12.5
+    parent: 48
+    type: Transform
+- uid: 530
+  type: GrilleBroken
+  components:
+  - pos: 38.5,12.5
+    parent: 48
+    type: Transform
+- uid: 531
+  type: AirlockMaintMedLocked
+  components:
+  - pos: 34.5,13.5
+    parent: 48
+    type: Transform
+  - containers:
+      board: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 532
+  type: WallMetal
+  components:
+  - pos: 20.5,17.5
+    parent: 48
+    type: Transform
+- uid: 533
+  type: Grille
+  components:
+  - pos: 20.5,16.5
+    parent: 48
+    type: Transform
+- uid: 534
+  type: WallMetal
+  components:
+  - pos: 20.5,22.5
+    parent: 48
+    type: Transform
+- uid: 535
+  type: WallMetal
+  components:
+  - pos: 23.5,22.5
+    parent: 48
+    type: Transform
+- uid: 536
+  type: WallMetal
+  components:
+  - pos: 25.5,22.5
+    parent: 48
+    type: Transform
+- uid: 537
+  type: WallMetal
+  components:
+  - pos: 24.5,22.5
+    parent: 48
+    type: Transform
+- uid: 538
+  type: WallMetal
+  components:
+  - pos: 21.5,22.5
+    parent: 48
+    type: Transform
+- uid: 539
+  type: WallMetal
+  components:
+  - pos: 26.5,22.5
+    parent: 48
+    type: Transform
+- uid: 540
+  type: WallMetal
+  components:
+  - pos: 27.5,22.5
+    parent: 48
+    type: Transform
+- uid: 541
+  type: WallMetal
+  components:
+  - pos: 29.5,22.5
+    parent: 48
+    type: Transform
+- uid: 542
+  type: WallMetal
+  components:
+  - pos: 28.5,22.5
+    parent: 48
+    type: Transform
+- uid: 543
+  type: WallMetal
+  components:
+  - pos: 30.5,22.5
+    parent: 48
+    type: Transform
+- uid: 544
+  type: WallMetal
+  components:
+  - pos: 30.5,21.5
+    parent: 48
+    type: Transform
+- uid: 545
+  type: WallMetal
+  components:
+  - pos: 30.5,19.5
+    parent: 48
+    type: Transform
+- uid: 546
+  type: WallMetal
+  components:
+  - pos: 30.5,18.5
+    parent: 48
+    type: Transform
+- uid: 547
+  type: WallMetal
+  components:
+  - pos: 30.5,17.5
+    parent: 48
+    type: Transform
+- uid: 548
+  type: Grille
+  components:
+  - pos: 23.5,17.5
+    parent: 48
+    type: Transform
+- uid: 549
+  type: WallMetal
+  components:
+  - pos: 20.5,21.5
+    parent: 48
+    type: Transform
+- uid: 550
+  type: WallMetal
+  components:
+  - pos: 30.5,20.5
+    parent: 48
+    type: Transform
+- uid: 551
+  type: Grille
+  components:
+  - pos: 21.5,13.5
+    parent: 48
+    type: Transform
+- uid: 552
+  type: Grille
+  components:
+  - pos: 24.5,16.5
+    parent: 48
+    type: Transform
+- uid: 553
+  type: WallMetal
+  components:
+  - pos: 24.5,17.5
+    parent: 48
+    type: Transform
+- uid: 554
+  type: Grille
+  components:
+  - pos: 24.5,15.5
+    parent: 48
+    type: Transform
+- uid: 555
+  type: WallMetal
+  components:
+  - pos: 25.5,21.5
+    parent: 48
+    type: Transform
+- uid: 556
+  type: WallMetal
+  components:
+  - pos: 25.5,17.5
+    parent: 48
+    type: Transform
+- uid: 557
+  type: WallMetal
+  components:
+  - pos: 30.5,16.5
+    parent: 48
+    type: Transform
+- uid: 558
+  type: WallMetal
+  components:
+  - pos: 30.5,15.5
+    parent: 48
+    type: Transform
+- uid: 559
+  type: WallMetal
+  components:
+  - pos: 30.5,14.5
+    parent: 48
+    type: Transform
+- uid: 560
+  type: Table
+  components:
+  - pos: 21.5,21.5
+    parent: 48
+    type: Transform
+- uid: 561
+  type: Table
+  components:
+  - pos: 23.5,21.5
+    parent: 48
+    type: Transform
+- uid: 562
+  type: Table
+  components:
+  - pos: 24.5,21.5
+    parent: 48
+    type: Transform
+- uid: 563
+  type: Table
+  components:
+  - pos: 22.5,21.5
+    parent: 48
+    type: Transform
+- uid: 564
+  type: WallMetal
+  components:
+  - pos: 25.5,20.5
+    parent: 48
+    type: Transform
+- uid: 565
+  type: MedicalScanner
+  components:
+  - pos: 29.5,18.5
+    parent: 48
+    type: Transform
+  - containers:
+      MedicalScanner-bodyContainer: !type:ContainerSlot {}
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+- uid: 566
+  type: Bed
+  components:
+  - pos: 29.5,16.5
+    parent: 48
+    type: Transform
+- uid: 567
+  type: Bed
+  components:
+  - pos: 29.5,14.5
+    parent: 48
+    type: Transform
+...
