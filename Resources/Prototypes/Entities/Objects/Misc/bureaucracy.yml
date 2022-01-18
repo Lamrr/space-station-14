@@ -1,0 +1,35 @@
+- type: entity
+  parent: BaseItem
+  id: BureaucracyClipboard
+  name: clipboard
+  description: Industrial grade clipboard.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: clipboard-base
+    - state: clipboard-clip-overlay
+  - type: Clothing # So it can be equipped on your belt.
+    sprite: Objects/Misc/bureaucracy.rsi
+    Slots: [belt]
+    HeldPrefix: clipboard
+    size: 20
+  - type: Storage
+    capacity: 20
+    whitelist:
+      tags:
+        - Paper
+        - Write # Not just the pens, but the crayons too...
+  - type: ItemMapper
+    mapLayers:
+      clipboard-pen-overlay:
+        whitelist:
+          tags:
+          - Write
+      paper:
+        whitelist:
+          tags:
+          - Paper
+  - type: Appearance
+    visuals:
+    - type: MappedItemVisualizer

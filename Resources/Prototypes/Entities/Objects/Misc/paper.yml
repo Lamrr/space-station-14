@@ -25,6 +25,9 @@
           enum.PaperStatus.Written: paper_words
   - type: Item
     size: 1
+  - type: Tag
+    tags:
+    - Paper
 
 - type: entity
   parent: Paper
