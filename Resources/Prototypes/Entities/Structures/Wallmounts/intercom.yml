@@ -1,0 +1,27 @@
+- type: entity
+  id: StationIntercom
+  name: station intercom
+  description: Talk through this, apparently.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: intercom
+    - state: intercom-on
+    state: intercom
+  - type: Rotatable
+  - type: Transform
+    anchored: true
+  - type: Physics
+  - type: Clickable
+  - type: InteractionOutline
+  - type: ExtensionCableReceiver
+  - type: ApcPowerReceiver
+  - type: DeviceNetworkComponent
+    deviceNetId: Apc
+  - type: ApcNetworkConnection
+  - type: Radio
+  placement:
+    mode: SnapgridCenter
+    snap:
+      - Wallmount
