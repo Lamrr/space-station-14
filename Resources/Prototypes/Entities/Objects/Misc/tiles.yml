@@ -416,3 +416,35 @@
     outputs:
       - plating
       - floor_snow
+
+# Grates
+
+- type: entity
+  name: grate tile
+  parent: FloorTileItemBase
+  id: FloorTileItemGrateLight
+  components:
+#   TODO: unique grate item sprites.
+  - type: Sprite
+    state: steel
+  - type: Item
+    HeldPrefix: steel
+  - type: FloorTile
+    outputs:
+      - plating
+      - floor_grate_light
+
+- type: entity
+  name: dark grate tile
+  parent: FloorTileItemBase
+  id: FloorTileItemGrateDark
+  components:
+  - type: Sprite
+    state: dark
+  - type: Item
+    HeldPrefix: dark
+  - type: FloorTile
+    outputs:
+      - plating
+      - floor_grate_dark
+

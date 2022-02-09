@@ -506,3 +506,35 @@
   friction: 0.30
   thermalConductivity: 0.04
   heatCapacity: 10000
+
+# Grates
+
+- type: tile
+  id: floor_grate_light
+  name: grate
+  texture: "grate-light"
+  base_turfs:
+  - plating
+  is_subfloor: true
+  can_crowbar: true
+  footstep_sounds:
+    collection: footstep_floor
+  friction: 0.30
+  item_drop: FloorTileItemGrateLight
+  thermalConductivity: 0.04
+  heatCapacity: 10000
+
+- type: tile
+  id: floor_grate_dark
+  name: dark grate
+  texture: "grate-dark"
+  base_turfs:
+  - plating
+  is_subfloor: true
+  can_crowbar: true
+  footstep_sounds:
+    collection: footstep_floor
+  friction: 0.30
+  item_drop: FloorTileItemGrateDark
+  thermalConductivity: 0.04
+  heatCapacity: 10000
